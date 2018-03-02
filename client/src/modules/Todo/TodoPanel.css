@@ -1,0 +1,48 @@
+.todoPanel h2 {
+  margin: 10px 0; }
+.todoPanel ul {
+  list-style: none;
+  font-weight: 100;
+  padding: 0 10%;
+  text-align: left;
+  font-size: 14px;
+  height: 110px;
+  overflow-y: scroll; }
+.todoPanel span {
+  position: relative;
+  display: block;
+  cursor: pointer; }
+.todoPanel span:before, .todoPanel span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #fff; }
+.todoPanel span:before {
+  left: -2.5px; }
+.todoPanel span:after {
+  right: 2.5px;
+  background: #fff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); }
+.todoPanel span:hover:before {
+  background: #fff;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1); }
+.todoPanel span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s; }
+.todoPanel input[type="text"] {
+  position: absolute;
+  bottom: 5px;
+  left: 2px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid;
+  width: 90%;
+  border-radius: 15px;
+  padding: 5px; }
+
+/*# sourceMappingURL=TodoPanel.css.map */

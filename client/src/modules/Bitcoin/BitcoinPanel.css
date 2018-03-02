@@ -1,0 +1,11 @@
+.bitcoinPanel h2 {
+  margin: 10px 0; }
+.bitcoinPanel .rate {
+  margin-bottom: 10px; }
+.bitcoinPanel .poweredBy {
+  font-size: 12px;
+  font-weight: 100; }
+  .bitcoinPanel .poweredBy a {
+    text-decoration: none; }
+
+/*# sourceMappingURL=BitcoinPanel.css.map */

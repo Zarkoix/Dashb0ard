@@ -1,0 +1,20 @@
+.bio180Panel h2 {
+  margin-top: 10px;
+  margin-bottom: 0; }
+.bio180Panel h4 {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 10px; }
+.bio180Panel .date {
+  margin-bottom: 10px;
+  font-size: 12px; }
+.bio180Panel .contents {
+  font-size: 12px; }
+.bio180Panel .poweredBy {
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 10px; }
+  .bio180Panel .poweredBy a {
+    text-decoration: none; }
+
+/*# sourceMappingURL=Bio180.css.map */

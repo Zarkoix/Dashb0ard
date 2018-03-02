@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard@svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.9%" y="-2.8%" width="107.9%" height="107.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="94.0617752" width="83.267801" height="83.267801" rx="9"></rect>
+        <rect id="path-3" x="94.0617752" y="94.0617752" width="83.267801" height="83.267801" rx="9"></rect>
+        <rect id="path-4" x="94.0617752" y="0" width="83.267801" height="83.267801" rx="9"></rect>
+        <rect id="path-5" x="0" y="0" width="83.267801" height="83.267801" rx="9"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group" filter="url(#filter-1)" transform="translate(127.865007, 127.865007) rotate(45.000000) translate(-127.865007, -127.865007) translate(38.865007, 38.865007)">
+                <g id="Rectangle">
+                    <use fill="#44475A" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#FFB86C" stroke-width="3" x="1.5" y="95.5617752" width="80.267801" height="80.267801" rx="9"></rect>
+                </g>
+                <g id="Rectangle">
+                    <use fill="#44475A" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#8BE9FD" stroke-width="3" x="95.5617752" y="95.5617752" width="80.267801" height="80.267801" rx="9"></rect>
+                </g>
+                <g id="Rectangle">
+                    <use fill="#44475A" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#FF79C6" stroke-width="3" x="95.5617752" y="1.5" width="80.267801" height="80.267801" rx="9"></rect>
+                </g>
+                <g id="Rectangle">
+                    <use fill="#44475A" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#50FA7B" stroke-width="3" x="1.5" y="1.5" width="80.267801" height="80.267801" rx="9"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

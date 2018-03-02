@@ -1,0 +1,17 @@
+.weatherPanel h2 {
+  margin-top: 10px;
+  margin-bottom: 0px; }
+.weatherPanel h4 {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 10px; }
+.weatherPanel .rate {
+  margin-bottom: 10px; }
+.weatherPanel .poweredBy {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 100; }
+  .weatherPanel .poweredBy a {
+    text-decoration: none; }
+
+/*# sourceMappingURL=WeatherPanel.css.map */

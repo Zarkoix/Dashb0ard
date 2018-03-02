@@ -1,0 +1,65 @@
+.todoPanel {
+  h2 {
+    margin: 10px 0;
+  }
+
+  ul {
+    list-style: none;
+    font-weight: 100;
+    padding: 0 10%;
+    text-align: left;
+    font-size: 14px;
+    height: 110px;
+    overflow-y: scroll;
+  }
+
+  span {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  span:before, span:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+
+  span:before {
+    left: -2.5px;
+  }
+  span:after {
+    right: 2.5px;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  span:hover:before {
+    background: #fff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  span:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+
+  input[type="text"] {
+    position: absolute;
+    bottom: 5px;
+    left: 2px; // This is lazy, and will prob error later. Meh.
+
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    width: 90%;
+    border-radius: 15px;
+    padding: 5px;
+  }
+}

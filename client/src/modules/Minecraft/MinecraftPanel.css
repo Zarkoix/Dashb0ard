@@ -1,0 +1,11 @@
+.minecraftPanel h2 {
+  margin: 10px 0; }
+.minecraftPanel .rate {
+  margin-bottom: 10px; }
+.minecraftPanel .poweredBy {
+  font-size: 12px;
+  font-weight: 100; }
+  .minecraftPanel .poweredBy a {
+    text-decoration: none; }
+
+/*# sourceMappingURL=BitcoinPanel.css.map */
