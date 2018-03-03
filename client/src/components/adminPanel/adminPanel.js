@@ -21,7 +21,8 @@ class AdminPanel extends Component {
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
-        opacity: '1'
+        opacity: '1',
+        alignItems: 'center'
       }}>
         <NewUserPanel token={this.props.token}/>
         <DeleteUserPanel token={this.props.token}/>

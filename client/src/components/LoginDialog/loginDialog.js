@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import TextField from '../GeneralUI/TextField'
 import FlatButton from '../GeneralUI/FlatButton/FlatButton'
-
-import { errorColor } from '../../theme/theme'
+import ErrorNotif from '../GeneralUI/ErrorNotif'
 
 import Icon from '../../logo.svg'
 import './LoginDialog.css'
@@ -62,8 +61,8 @@ class LoginDialog extends Component {
           return {
             status: res.status,
             message: text
-          }
-        })
+          };
+        });
       })
       .then(({status, message}) => {
         // applying body based on status code
@@ -74,7 +73,7 @@ class LoginDialog extends Component {
         } else if (status === 403) {
           this.setState({
             generalError: message
-          })
+          });
         }
       })
       .catch(reason => {
@@ -126,19 +125,7 @@ class LoginDialog extends Component {
             </h4>
           </div>
           {this.state.generalError ? (
-            <div
-              style={{
-                margin: '5px 10px',
-                border: '1px solid ' + errorColor,
-                textAlign: 'center',
-                fontWeight: 100,
-                color: errorColor,
-                padding: '5px',
-                borderRadius: '5px'
-              }}
-            >
-              {this.state.generalError}
-            </div>
+            <ErrorNotif message={this.state.generalError}/>
           ) : null}
           <TextField
             placeholder="JohnDoe"

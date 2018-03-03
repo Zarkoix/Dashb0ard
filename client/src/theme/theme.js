@@ -27,6 +27,9 @@ export const accentColor6 = dracula.yellow
 export const textColor = dracula.foreground
 
 export const errorColor = dracula.red
+export const infoNotif = dracula.cyan
+export const affirmativeColor = dracula.green
+export const negativeColor = dracula.red
 
 export const muiTheme = getMuiTheme({
   palette: {
