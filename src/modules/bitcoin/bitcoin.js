@@ -13,7 +13,12 @@ module.exports = {
         debug(err)
         callback(err)
       }
-      debug('price is: ' + body.USD)
+      if (body.USD) {
+        debug(JSON.stringify(body))
+        debug('price is: ' + body.USD)
+      } else {
+        debug('api returned an error')
+      }
       callback(body.USD)
     })
   }
