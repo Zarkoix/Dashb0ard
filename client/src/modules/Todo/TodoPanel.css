@@ -15,7 +15,7 @@
 .todoPanel span:before, .todoPanel span:after {
   content: '';
   position: absolute;
-  width: 0%;
+    width: 0;
   height: 1px;
   top: 50%;
   margin-top: -0.5px;
@@ -37,12 +37,13 @@
 .todoPanel input[type="text"] {
   position: absolute;
   bottom: 5px;
-  left: 2px;
+    left: 5px;
   background-color: transparent;
   color: white;
   border: 1px solid;
-  width: 90%;
+    width: calc(100% - 20px);
   border-radius: 15px;
-  padding: 5px; }
+    padding: 4px;
+}
 
 /*# sourceMappingURL=TodoPanel.css.map */

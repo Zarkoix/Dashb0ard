@@ -22,7 +22,7 @@
   span:before, span:after {
     content: '';
     position: absolute;
-    width: 0%;
+    width: 0;
     height: 1px;
     top: 50%;
     margin-top: -0.5px;
@@ -53,13 +53,12 @@
   input[type="text"] {
     position: absolute;
     bottom: 5px;
-    left: 2px; // This is lazy, and will prob error later. Meh.
-
+    left: 5px; // This is lazy, and will prob error later. Meh.
     background-color: transparent;
     color: white;
     border: 1px solid;
-    width: 90%;
+    width: calc(100% - 20px);
     border-radius: 15px;
-    padding: 5px;
+    padding: 4px;
   }
 }
