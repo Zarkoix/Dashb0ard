@@ -1,5 +1,5 @@
 import React from 'react'
-import { infoNotif } from '../../../theme/theme'
+import { infoColor } from '../../../theme/theme'
 
 const InfoNotif = props => {
   return (
@@ -9,8 +9,8 @@ const InfoNotif = props => {
         border: '1px solid #F44336',
         padding: '5px',
         borderRadius: '5px',
-        borderColor: infoNotif,
-        color: infoNotif
+        borderColor: infoColor,
+        color: infoColor
       }}
     >
       {props.message}
