@@ -1,30 +1,5 @@
-.bio180Panel {
-  h2 {
-    margin-top: 10px;
-    margin-bottom: 0;
-  }
+@import "../module_utilities/panel_styles";
 
-  h4 {
-    color: white;
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-
-  .date {
-    margin-bottom: 10px;
-    font-size: 12px;
-  }
-
-  .contents {
-    font-size: 12px;
-  }
-
-  .poweredBy {
-    font-size: 12px;
-    font-weight: 100;
-    margin-top: 10px;
-    a {
-      text-decoration: none;
-    }
-  }
+.bio180__panel {
+  @include standard_panel;
 }

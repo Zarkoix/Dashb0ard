@@ -1,11 +1,32 @@
-.bitcoinPanel h2 {
-  margin: 10px 0; }
-.bitcoinPanel .rate {
+.bitcoin__panel h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.bitcoin__panel h4 {
+    color: white;
+    font-size: 12px;
   margin-bottom: 10px; }
-.bitcoinPanel .poweredBy {
-  font-size: 12px;
-  font-weight: 100; }
-  .bitcoinPanel .poweredBy a {
+
+.bitcoin__panel .contents {
+    font-size: 12px;
+}
+
+.bitcoin__panel .poweredBy {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.bitcoin__panel .poweredBy a {
     text-decoration: none; }
+
+.bitcoin__panel .rate {
+    margin-bottom: 10px;
+}
 
 /*# sourceMappingURL=BitcoinPanel.css.map */

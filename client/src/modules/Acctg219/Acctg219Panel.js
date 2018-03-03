@@ -42,7 +42,7 @@ class Acctg219 extends Component {
     }
 
     return (
-      <div className="bio180Panel" style={styles.root}>
+      <div className="acctg219__panel" style={styles.root}>
         {this.state.loading
           ? <Spinner color={this.props.color}/>
           : <DashboardCard color={this.props.color}>
@@ -52,8 +52,9 @@ class Acctg219 extends Component {
               <div>{this.state.data.topic}</div>
               <div>{this.state.data.reading}</div>
               <div>RQ: {this.state.data.hw}</div>
-              <div className="poweredBy"><a style={{ color: this.props.color }} href="https://canvas.uw.edu/courses/1129260">Canvas</a></div>
             </div>
+            <div className="poweredBy"><a style={{color: this.props.color}}
+                                          href="https://canvas.uw.edu/courses/1129260">Canvas</a></div>
           </DashboardCard>
         }
       </div>)

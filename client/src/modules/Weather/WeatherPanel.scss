@@ -1,24 +1,5 @@
-.weatherPanel {
-  h2 {
-    margin-top: 10px;
-    margin-bottom: 0px;
-  }
+@import "../module_utilities/panel_styles";
 
-  h4 {
-    color: white;
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-  .rate {
-    margin-bottom: 10px;
-  }
-
-  .poweredBy {
-    margin-top: 10px;
-    font-size: 12px;
-    font-weight: 100;
-    a {
-      text-decoration: none;
-    }
-  }
+.weather__panel {
+  @include standard_panel;
 }

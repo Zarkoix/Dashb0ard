@@ -44,7 +44,7 @@ class BitcoinPanel extends Component {
     };
 
     return (
-      <div className="weatherPanel" style={styles.root}>
+      <div className="weather__panel" style={styles.root}>
         {this.state.loading ? (
           <Spinner color={this.props.color} />
         ) : (

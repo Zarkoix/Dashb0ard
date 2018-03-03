@@ -42,7 +42,7 @@ class BitcoinPanel extends Component {
     }
 
     return (
-      <div className="bitcoinPanel" style={styles.root}>
+      <div className="bitcoin__panel" style={styles.root}>
         {this.state.loading
           ? <Spinner color={this.props.color}/>
           : <DashboardCard color={this.props.color}>

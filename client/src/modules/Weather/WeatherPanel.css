@@ -1,17 +1,28 @@
-.weatherPanel h2 {
+.weather__panel h2 {
   margin-top: 10px;
-  margin-bottom: 0px; }
-.weatherPanel h4 {
+    margin-bottom: 0;
+}
+
+.weather__panel h4 {
   color: white;
   font-size: 12px;
   margin-bottom: 10px; }
-.weatherPanel .rate {
-  margin-bottom: 10px; }
-.weatherPanel .poweredBy {
-  margin-top: 10px;
+
+.weather__panel .contents {
+    font-size: 12px;
+}
+
+.weather__panel .poweredBy {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
   font-size: 12px;
-  font-weight: 100; }
-  .weatherPanel .poweredBy a {
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.weather__panel .poweredBy a {
     text-decoration: none; }
 
 /*# sourceMappingURL=WeatherPanel.css.map */

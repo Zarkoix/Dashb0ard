@@ -42,7 +42,7 @@ class MinecraftPanel extends Component {
     }
 
     return (
-      <div className="minecraftPanel" style={styles.root}>
+      <div className="minecraft__panel" style={styles.root}>
         {this.state.loading
           ? <Spinner color={this.props.color}/>
           : <DashboardCard color={this.props.color}>

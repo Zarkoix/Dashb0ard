@@ -1,11 +1,32 @@
-.minecraftPanel h2 {
-  margin: 10px 0; }
-.minecraftPanel .rate {
+.minecraft__panel h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.minecraft__panel h4 {
+    color: white;
+    font-size: 12px;
   margin-bottom: 10px; }
-.minecraftPanel .poweredBy {
-  font-size: 12px;
-  font-weight: 100; }
-  .minecraftPanel .poweredBy a {
+
+.minecraft__panel .contents {
+    font-size: 12px;
+}
+
+.minecraft__panel .poweredBy {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.minecraft__panel .poweredBy a {
     text-decoration: none; }
 
-/*# sourceMappingURL=BitcoinPanel.css.map */
+.minecraft__panel .rate {
+    margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=MinecraftPanel.css.map */

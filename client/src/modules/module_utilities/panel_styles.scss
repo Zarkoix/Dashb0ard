@@ -1,0 +1,29 @@
+@mixin standard_panel {
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .contents {
+    font-size: 12px;
+  }
+
+  .poweredBy {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 10px;
+    a {
+      text-decoration: none;
+    }
+  }
+}

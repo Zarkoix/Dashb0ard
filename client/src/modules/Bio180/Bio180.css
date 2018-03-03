@@ -1,20 +1,25 @@
-.bio180Panel h2 {
+.bio180__panel h2 {
   margin-top: 10px;
   margin-bottom: 0; }
-.bio180Panel h4 {
+
+.bio180__panel h4 {
   color: white;
   font-size: 12px;
   margin-bottom: 10px; }
-.bio180Panel .date {
-  margin-bottom: 10px;
+
+.bio180__panel .contents {
   font-size: 12px; }
-.bio180Panel .contents {
-  font-size: 12px; }
-.bio180Panel .poweredBy {
+
+.bio180__panel .poweredBy {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
   font-size: 12px;
   font-weight: 100;
   margin-top: 10px; }
-  .bio180Panel .poweredBy a {
+
+.bio180__panel .poweredBy a {
     text-decoration: none; }
 
 /*# sourceMappingURL=Bio180.css.map */

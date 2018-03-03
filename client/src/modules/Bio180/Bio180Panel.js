@@ -42,7 +42,7 @@ class Bio180Panel extends Component {
     }
 
     return (
-      <div className="bio180Panel" style={styles.root}>
+      <div className="bio180__panel" style={styles.root}>
         {this.state.loading
           ? <Spinner color={this.props.color}/>
           : <DashboardCard color={this.props.color}>

@@ -1,20 +1,25 @@
-.bio180Panel h2 {
+.acctg219__panel h2 {
   margin-top: 10px;
   margin-bottom: 0; }
-.bio180Panel h4 {
+
+.acctg219__panel h4 {
   color: white;
   font-size: 12px;
   margin-bottom: 10px; }
-.bio180Panel .date {
-  margin-bottom: 10px;
+
+.acctg219__panel .contents {
   font-size: 12px; }
-.bio180Panel .contents {
-  font-size: 12px; }
-.bio180Panel .poweredBy {
+
+.acctg219__panel .poweredBy {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
   font-size: 12px;
   font-weight: 100;
   margin-top: 10px; }
-  .bio180Panel .poweredBy a {
+
+.acctg219__panel .poweredBy a {
     text-decoration: none; }
 
-/*# sourceMappingURL=Bio180.css.map */
+/*# sourceMappingURL=Acctg219.css.map */
