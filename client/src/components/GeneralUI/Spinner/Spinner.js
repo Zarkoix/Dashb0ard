@@ -6,7 +6,7 @@ class Spinner extends Component {
 
   styles = {
     wrapper: {
-      margin: '46px 46px'
+      margin: '41px 41px'
     },
     square: {
       backgroundColor: this.props.color

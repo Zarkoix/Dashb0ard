@@ -1,3 +1,5 @@
+@import "../../../theme/variables";
+
 button {
   background-color: transparent;
   border: 1px solid;
@@ -6,4 +8,10 @@ button {
   cursor: pointer;
   padding: 2px 15px;
   font-size: 16px;
+  transition: background-color, color 0.4s ease-in-out;
+}
+
+button:hover {
+  background-color: white;
+  color: $background;
 }

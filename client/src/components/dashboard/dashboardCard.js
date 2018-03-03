@@ -9,7 +9,6 @@ class DashboardCard extends Component {
       border: "1px solid",
       borderColor: this.props.color ? this.props.color : accentColor,
       margin: "5px",
-      padding: "5px",
       borderRadius: "5px",
       color: textColor,
       width: "150px",

@@ -5,6 +5,13 @@ button {
   color: white;
   cursor: pointer;
   padding: 2px 15px;
-  font-size: 16px; }
+    font-size: 16px;
+    transition: background-color, color 0.4s ease-in-out;
+}
+
+button:hover {
+    background-color: white;
+    color: #282a36;
+}
 
 /*# sourceMappingURL=FlatButton.css.map */

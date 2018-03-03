@@ -1,7 +1,9 @@
 {
 "version": 3,
-"mappings": "AAEA,EAAG;EACD,KAAK,ECDK,OAAO;EDEjB,UAAU,EAAE,MAAM",
-"sources": ["LoginDialog.scss","../../theme/variables.scss"],
+  "mappings": "AAGE,SAAG;EACD,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM",
+  "sources": [
+    "LoginDialog.scss"
+  ],
 "names": [],
 "file": "LoginDialog.css"
 }
