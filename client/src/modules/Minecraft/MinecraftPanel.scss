@@ -3,8 +3,20 @@
 .minecraft__panel {
   @include standard_panel;
 
-  .rate {
-    margin-bottom: 10px;
+  .ip {
+    cursor: pointer;
   }
 
+  .players {
+    margin: 10px 0;
+  }
+
+  input[type="text"] {
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    width: calc(100% - 20px);
+    border-radius: 15px;
+    padding: 4px;
+  }
 }

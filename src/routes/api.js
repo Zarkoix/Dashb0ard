@@ -33,17 +33,26 @@ router.get('/module/data', auth.isAuthenticated, function (req, res, next) {
   res.json(db.getDataSlice(req.user.username, module))
 })
 
-router.get('/module/endpoint', auth.isAuthenticated, function (req, res, next) {
+const handleEndpoint = (req, res) => {
   const module = req.get('module')
   if (restEndpoints[module]) {
     debug('endpoint called for ' + module)
     restEndpoints[module](req.user.username, function (value) {
       res.json(value)
-    })
+    }, req.params)
   } else {
     res.status(400)
     res.send('No endpoint for module')
   }
+}
+
+router.get('/module/endpoint', auth.isAuthenticated, function (req, res) {
+  handleEndpoint(req, res)
+
+})
+
+router.get('/module/endpoint/:data', auth.isAuthenticated, function (req, res) {
+  handleEndpoint(req, res)
 })
 
 router.get('/user', auth.isAuthenticated, function (req, res, next) {

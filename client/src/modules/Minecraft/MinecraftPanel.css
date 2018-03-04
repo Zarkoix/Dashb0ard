@@ -2,16 +2,13 @@
     margin-top: 10px;
     margin-bottom: 0;
 }
-
 .minecraft__panel h4 {
     color: white;
     font-size: 12px;
   margin-bottom: 10px; }
-
 .minecraft__panel .contents {
     font-size: 12px;
 }
-
 .minecraft__panel .poweredBy {
     position: absolute;
     bottom: 5px;
@@ -25,8 +22,21 @@
 .minecraft__panel .poweredBy a {
     text-decoration: none; }
 
-.minecraft__panel .rate {
-    margin-bottom: 10px;
+.minecraft__panel .ip {
+    cursor: pointer;
+}
+
+.minecraft__panel .players {
+    margin: 10px 0;
+}
+
+.minecraft__panel input[type="text"] {
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    width: calc(100% - 20px);
+    border-radius: 15px;
+    padding: 4px;
 }
 
 /*# sourceMappingURL=MinecraftPanel.css.map */
