@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import AppBar from "material-ui/AppBar";
 import IconButton from "material-ui/IconButton";
 import IconBuild from "material-ui/svg-icons/action/build";
+import IconPerson from 'material-ui/svg-icons/social/person'
 
 import AdminPanel from "../adminPanel/adminPanel";
 
@@ -20,7 +21,8 @@ import {
   accentColor3,
   accentColor4,
   accentColor5,
-  accentColor6
+  accentColor6,
+  secondaryColor
 } from "../../theme/theme";
 import socket from "../Websockets/Socket";
 
@@ -76,11 +78,18 @@ class Dashboard extends Component {
 
   render() {
     let appBarProps = {
-      iconElementRight: this.state.user.admin ? (
-        <IconButton onClick={this.toggleAdminPanel}>
-          <IconBuild />
-        </IconButton>
-      ) : null,
+      iconElementRight: (
+        <span>
+          <IconButton onClick={() => {}}>
+            <IconPerson color={secondaryColor}/>
+          </IconButton>
+          {this.state.user.admin ? (
+            <IconButton onClick={this.toggleAdminPanel}>
+              <IconBuild color={secondaryColor}/>
+            </IconButton>
+          ) : null}
+        </span>
+      ),
       iconElementLeft: (
         <img
           style={{

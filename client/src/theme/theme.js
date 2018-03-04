@@ -16,6 +16,7 @@ const dracula = {
 }
 
 export const backgroundColor = dracula.background
+export const secondaryColor = dracula.currentLine
 
 export const accentColor = dracula.cyan
 export const accentColor2 = dracula.green
